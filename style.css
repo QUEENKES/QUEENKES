@@ -1,0 +1,113 @@
+body{
+    font-family: fantasy;
+    color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo{
+    height: 100px;
+    margin-right: 80px;
+    border-radius: 50%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+footer{
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+}
+
+.index-header{
+    background-color: #333;
+    color: #fff;
+}
+
+.index-bg{
+    background-image: url(chalkboard-with-catering-services-background_670382-173318.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.index-footer{
+    background-color: #333;
+    color: #fff;
+}
+
+.service-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services-bg {
+    background-image: url(chalkboard-with-catering-services-background_670382-173318.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.services-footer {
+    background-color: #f4f4f4;
+    color:#333;
+}
+
+.contact-header {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.button{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.contacts-bg {
+    background-image: url(chalkboard-with-catering-services-background_670382-173318.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-footer{
+    background-color: #f9f9f9;
+    color: #333;
+}
